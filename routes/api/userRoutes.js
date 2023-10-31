@@ -1,16 +1,19 @@
 // The api/users/ endpoint
 
-// GET all users
+const router = require('express').Router();
+const {
+  getUsers,
+  getSingleUser,
+  createUser,
+} = require('../../controllers/userController');
 
-// GET a single user by its _id and populated thought and friend data
+router.route('/').get(getUsers).post(createUser);
 
-// POST a new user
+router.route('/:userId').get(getSingleUser);
 
-// PUT to update a user by its _id
+module.exports = router;
 
-// DELETE to remove a user by its _id
-
-
+// IDK how to do this part
 // /api/users/:userId/friends/:friendId
 
 // POST to add a new friend to a user's friend list
