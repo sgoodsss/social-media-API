@@ -20,6 +20,8 @@
 
   After installation is complete, run the command npm i to install the packages need for this application. Next, run "npm run seeds" to seed the database.  Finally, run "npm start" to start the server. Open up Postman or Insomnia to interact with the database.  Please watch the video linked below for a tutorial.
 
+  https://drive.google.com/file/d/1Ws6FGrVCCwBZV58Hvo17kkcd71Pboy86/view?usp=sharing
+
   ## Credits
     (n.d.). Moment.js | Home. Retrieved October 31, 2023, from https://momentjs.com/
 

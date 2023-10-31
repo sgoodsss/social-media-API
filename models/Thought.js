@@ -38,7 +38,7 @@ const reactionSchema = new Schema({
     },
 });
 
-// Schema to create User model
+// Schema to create Thought model
 const thoughtSchema = new Schema({
     thoughtText: {
         type: String,
