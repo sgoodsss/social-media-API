@@ -1,0 +1,26 @@
+{
+  "name": "social-media-api",
+  "version": "1.0.0",
+  "description": "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.  Uses Express.js for routing, a MongoDB database, and the Mongoose ODM.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgoodsss/social-media-API.git"
+  },
+  "keywords": [
+    "mongoose",
+    "MongoDB",
+    "API",
+    "ODM"
+  ],
+  "author": "Sarah Goodell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgoodsss/social-media-API/issues"
+  },
+  "homepage": "https://github.com/sgoodsss/social-media-API#readme"
+}
